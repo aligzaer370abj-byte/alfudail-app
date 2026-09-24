@@ -1,0 +1,21 @@
+{
+  "name": "مركز الفضيل بن يسار البصري الثقافي",
+  "short_name": "مركز الفضيل",
+  "description": "تطبيق إدارة المركز - الحضور والانصراف، الإشعارات الفورية على شاشة القفل، والمكتبة الرقمية",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1B2A4A",
+  "theme_color": "#1B2A4A",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business", "education"]
+}

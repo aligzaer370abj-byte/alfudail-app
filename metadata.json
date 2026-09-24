@@ -1,0 +1,6 @@
+{
+  "name": "مركز الفضيل بن يسار البصري الثقافي",
+  "description": "تطبيق الإدارة المتقدم لمركز الفضيل بن يسار البصري الثقافي - الحضور، الإجازات، المهام، والأرشفة لمدة 5 سنوات",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

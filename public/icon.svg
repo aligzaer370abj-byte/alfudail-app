@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2A4A" />
+      <stop offset="50%" stop-color="#14213d" />
+      <stop offset="100%" stop-color="#0a1128" />
+    </linearGradient>
+    <linearGradient id="gradGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle with Gold Border -->
+  <circle cx="256" cy="256" r="240" fill="url(#gradBg)" stroke="url(#gradGold)" stroke-width="12" filter="url(#shadow)" />
+
+  <!-- Inner Decorative Ring -->
+  <circle cx="256" cy="256" r="215" fill="none" stroke="url(#gradGold)" stroke-width="2" stroke-dasharray="10 8" opacity="0.6"/>
+
+  <!-- Center Emblem (Dome & Book motif for Al-Fudail) -->
+  <g transform="translate(256, 235) scale(1.15)">
+    <!-- Architectural Dome Top -->
+    <path d="M 0 -105 Q 40 -60 55 -15 L -55 -15 Q -40 -60 0 -105 Z" fill="url(#gradGold)" />
+    <!-- Finial Star/Crescent -->
+    <circle cx="0" cy="-115" r="7" fill="url(#gradGold)" />
+    <path d="M 0 -130 L 2 -118 L -2 -118 Z" fill="url(#gradGold)" />
+
+    <!-- Open Book / Quran Leaves -->
+    <path d="M 0 15 Q 45 -5 85 10 L 85 55 Q 45 40 0 60 Q -45 40 -85 55 L -85 10 Q -45 -5 0 15 Z" fill="#FFFFFF" opacity="0.95" />
+    <path d="M 0 15 L 0 60" stroke="#1B2A4A" stroke-width="3" />
+    <path d="M 5 22 Q 40 8 75 20" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    <path d="M 5 32 Q 40 18 75 30" stroke="#D4AF37" stroke-width="2" fill="none" opacity="0.8" />
+    <path d="M -5 22 Q -40 8 -75 20" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    <path d="M -5 32 Q -40 18 -75 30" stroke="#D4AF37" stroke-width="2" fill="none" opacity="0.8" />
+
+    <!-- Book Stand / Rehal Base -->
+    <path d="M -70 65 L 70 65 L 50 85 L -50 85 Z" fill="url(#gradGold)" />
+  </g>
+
+  <!-- Typography: Al-Fudail Center -->
+  <text x="256" y="380" font-family="'Cairo', 'Amiri', Arial, sans-serif" font-size="28" font-weight="900" fill="url(#gradGold)" text-anchor="middle" letter-spacing="1">مركز الفضيل بن يسار</text>
+  <text x="256" y="415" font-family="'Cairo', Arial, sans-serif" font-size="16" font-weight="700" fill="#E2E8F0" text-anchor="middle">الإدارة ونظام الإشعارات الذكي</text>
+</svg>
